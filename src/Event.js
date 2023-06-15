@@ -1,9 +1,23 @@
 import React from 'react'
 import "./Event.css"
+import './App.css';
+import {Link} from 'react-router-dom';
 function Event() {
   return (
     <div>
-     <div className="container">
+      <div className="mainheader">
+      <Link to='/news'>
+      <p className="paraLink" style={{textDecoration:'none'}}>News</p>
+      </Link>
+      <Link to='/job'>
+       <p className="paraLink"style={{textDecoration:'none'}}>Job</p>
+       </Link>
+       <Link to='/event'style={{textDecoration:'none'}}>
+       <p className="paraLink">Event</p>
+       </Link>
+ 
+    </div>
+     <div className="container" style={{marginTop:'100px'}}>
         <div className="item-container">
             <div className="img-container">
                 <img src="img1.jpg" alt="Event image"/>

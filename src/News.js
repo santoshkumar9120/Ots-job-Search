@@ -1,11 +1,23 @@
 import React from 'react'
 import "./News.css"
-
+import './App.css';
+import {Link} from 'react-router-dom';
 function News() {
   return (
     <div>
-     
-     <div class="container">
+   <div className="mainheader">
+      <Link to='/news'>
+      <p className="paraLink" style={{textDecoration:'none'}}>News</p>
+      </Link>
+      <Link to='/job'>
+       <p className="paraLink"style={{textDecoration:'none'}}>Job</p>
+       </Link>
+       <Link to='/event'style={{textDecoration:'none'}}>
+       <p className="paraLink">Event</p>
+       </Link>
+ 
+    </div>
+     <div class="container" style={{marginTop:'100px'}}>
     <header>
     <h1 className="heading-1">the light star</h1>
     <div className="sub-heading">

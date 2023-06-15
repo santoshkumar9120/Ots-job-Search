@@ -31,7 +31,7 @@ body {
   padding: 10px 20px;
   font-size: 16px;
   font-weight: 400;
-  color: white;
+  color: rgb(250, 248, 248);
   outline: none;
   cursor: pointer;
   border: none;
@@ -214,4 +214,10 @@ body {
   margin-left: 5px;
   font-weight: 600;
   font-size: 16px;
+}
+h1{
+  color: blueviolet;
+}
+p{
+  color: darkcyan;
 }

@@ -1,12 +1,25 @@
 import React from 'react'
 import "./Job.css"
-
+import './App.css';
+import {Link} from 'react-router-dom';
 function Job() {
   return (
     <div>
-   <header className="hero-section">
+       <div className="mainheader">
+      <Link to='/news'>
+      <p className="paraLink" style={{textDecoration:'none'}}>News</p>
+      </Link>
+      <Link to='/job'>
+       <p className="paraLink"style={{textDecoration:'none'}}>Job</p>
+       </Link>
+       <Link to='/event'style={{textDecoration:'none'}}>
+       <p className="paraLink">Event</p>
+       </Link>
+ 
+    </div>
+   <header className="hero-section" style={{marginTop:'100px'}}>
       <nav className="nav-bar">
-        <h2 className="logo">JJO</h2>
+        <h2 className="logo"></h2>
         <div className="nav-items">
           <a href="#">Discounts</a>
           <a href="#">About us</a>

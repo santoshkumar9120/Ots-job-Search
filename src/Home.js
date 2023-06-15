@@ -4,13 +4,13 @@ import {Link} from "react-router-dom"
 function Home() {
   return (
     <div>
-     <div className='header'>
-<ul>
+     <div>
+      <ul className="list">
   {/* <li><Link to='/'>Home</Link></li> */}
-  <li><Link to='/job'>Job</Link></li>
+   <li ><Link to='/job'>Job</Link></li>
   <li><Link to='/news'>News</Link></li>
-  <li><Link to='/event'>Event</Link></li>
-</ul>
+  <li><Link to='/event'>Event</Link></li> 
+  </ul>
      </div>
      
     </div>
