@@ -1,0 +1,12 @@
+.header{
+    width: 100%;
+    height: 100px;
+    background-color: chartreuse;
+    
+}
+ul li{
+    display: inline;
+    padding-left: 10px;
+    padding-top: 0px;
+    font-size: x-large;
+}
